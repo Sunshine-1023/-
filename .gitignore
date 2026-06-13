@@ -1,0 +1,12 @@
+.venv/
+.DS_Store
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+chroma_db/
+notebooks/chroma_db/
+results/
+.ipynb_checkpoints/
