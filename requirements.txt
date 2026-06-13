@@ -1,0 +1,12 @@
+langchain==0.3.30
+langchain-openai>=0.3.35
+langchain-community>=0.3.31
+langchain-huggingface>=0.3.1
+langchain-chroma>=0.2.6
+langchain-text-splitters>=0.3.11
+chromadb>=1.5.9
+sentence-transformers>=5.1.2
+grpcio>=1.75,<1.81
+python-dotenv>=1.2.1
+jupyter>=1.0.0
+pandas>=2.3.3

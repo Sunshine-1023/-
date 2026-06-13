@@ -1,0 +1,904 @@
+课程级 RAG 知识库（接近真实版）
+说明：本知识库用于大语言模型幻觉检测与缓解课程实验。
+设计原则：只提供可检索证据段落，不包含原始评测问题，不包含标准答案字段；部分条目为相近概念或干扰材料，用于避免检索结果过于理想化。
+建议切分：以“===== DOC START =====”到“===== DOC END =====”为一个 chunk；检索 top_k 建议取 3 或 5。
+
+===== DOC START =====
+doc_id: KB_COMMON_001
+category: 常识
+title: 水在标准大气压下的沸点
+keywords: 水,沸点,标准大气压
+content:
+在标准大气压下，纯水的沸点通常为 100 摄氏度。沸点会受到气压影响，海拔越高气压越低，水的沸点通常会下降，因此高原地区烧水不一定能达到平原地区同样的温度。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_002
+category: 常识
+title: 地球自转与昼夜交替
+keywords: 地球,自转,昼夜
+content:
+地球绕自身地轴自转，一次自转大约需要 24 小时。由于太阳光只能照亮地球面向太阳的一侧，地球自转使不同地区交替进入白天和黑夜，从而形成昼夜交替现象。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_003
+category: 常识
+title: 光年表示距离
+keywords: 光年,距离,天文
+content:
+光年不是时间单位，而是距离单位。它表示光在真空中传播一年所经过的距离，常用于描述恒星、星系等天体之间的巨大距离。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_004
+category: 常识
+title: 太阳系行星数量
+keywords: 太阳系,行星,冥王星
+content:
+现代天文学通常认为太阳系有八大行星。冥王星曾被归为行星，但后来被重新分类为矮行星，因此不再计入八大行星之中。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_005
+category: 常识
+title: 人体主要呼吸器官
+keywords: 人体,肺,呼吸
+content:
+人体进行气体交换的主要器官是肺。空气进入肺部后，氧气通过肺泡进入血液，二氧化碳从血液进入肺泡并随呼气排出体外。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_006
+category: 常识
+title: 植物光合作用
+keywords: 植物,光合作用,叶绿体
+content:
+绿色植物通过光合作用利用光能，把二氧化碳和水转化为有机物，并释放氧气。光合作用主要发生在含有叶绿素的细胞结构中，例如叶绿体。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_007
+category: 常识
+title: 声音传播需要介质
+keywords: 声音,介质,真空
+content:
+声音是机械波，需要空气、水或固体等介质传播。在真空中没有可供振动传递的介质，因此声音不能在真空中传播。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_008
+category: 常识
+title: 二氧化碳与温室效应
+keywords: 二氧化碳,温室效应,气候
+content:
+二氧化碳是常见的温室气体之一。它能够吸收并重新辐射部分地表发出的红外辐射，从而增强温室效应。温室效应本身有助于维持地球温度，但过量增强可能影响气候系统。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_009
+category: 常识
+title: 金属导电原因
+keywords: 金属,导电,自由电子
+content:
+金属通常具有良好的导电性，原因是金属内部存在较多可以自由移动的电子。当外加电场出现时，这些自由电子会发生定向移动，形成电流。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_010
+category: 常识
+title: DNA的基本作用
+keywords: DNA,遗传,基因
+content:
+DNA 是生物体中重要的遗传物质，携带遗传信息。基因是 DNA 上具有特定功能的片段，能够影响生物体的性状和蛋白质合成过程。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_011
+category: 常识
+title: 疫苗的基本原理
+keywords: 疫苗,免疫,抗体
+content:
+疫苗通常通过让免疫系统接触经过处理的病原体成分或相关信息，使机体产生免疫记忆。之后再次遇到相同或相似病原体时，免疫系统能够更快作出反应。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_012
+category: 常识
+title: 牛顿第一定律
+keywords: 牛顿第一定律,惯性,力
+content:
+牛顿第一定律说明，如果物体不受外力或所受合外力为零，它将保持静止状态或匀速直线运动状态。该定律体现了物体具有保持原有运动状态的惯性。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_013
+category: 常识
+title: 电流单位
+keywords: 电流,安培,单位
+content:
+电流的国际单位是安培，符号为 A。电流表示单位时间内通过导体横截面的电荷量，是电学中的基本物理量之一。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_014
+category: 常识
+title: 酸碱中和反应
+keywords: 酸,碱,中和反应
+content:
+酸和碱发生反应时，通常会生成盐和水，这类反应称为中和反应。例如盐酸与氢氧化钠反应可以生成氯化钠和水。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_015
+category: 常识
+title: 空气主要成分
+keywords: 空气,氮气,氧气
+content:
+干燥空气中含量最多的气体是氮气，约占空气体积分数的 78%；氧气约占 21%。空气中还含有少量氩气、二氧化碳和其他气体。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_016
+category: 常识
+title: 电池能量转换
+keywords: 电池,化学能,电能
+content:
+常见电池通过内部化学反应将化学能转化为电能。外电路接通后，电荷在电路中定向移动，设备便可以获得电能并工作。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_017
+category: 常识
+title: 月球自身不发光
+keywords: 月球,反射,太阳光
+content:
+月球本身不会像恒星一样发光。人们看到明亮的月面，主要是因为月球表面反射了太阳光。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_018
+category: 常识
+title: 食物链能量传递
+keywords: 生态系统,食物链,能量
+content:
+在生态系统中，能量通常沿食物链从生产者传递到消费者。能量在传递过程中会有损失，因此越高营养级能够获得的能量通常越少。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_019
+category: 常识
+title: 地震震级与烈度
+keywords: 地震,震级,烈度
+content:
+地震震级用于表示地震释放能量的大小，而烈度描述某一地区受到地震影响和破坏的程度。同一次地震只有一个震级，但不同地点的烈度可以不同。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_020
+category: 常识
+title: 地图比例尺
+keywords: 地图,比例尺,距离
+content:
+地图比例尺表示图上距离与实际距离之间的比例关系。比例尺越大，地图展示的范围通常越小，但细节越丰富；比例尺越小，展示范围更大但细节较少。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_021
+category: 常识
+title: 信息压缩
+keywords: 压缩,无损压缩,有损压缩
+content:
+数据压缩可分为无损压缩和有损压缩。无损压缩可以在解压后恢复原始数据，常用于文本和程序文件；有损压缩会丢弃部分信息，常用于图片、音频和视频。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_022
+category: 常识
+title: 互联网中的IP地址
+keywords: IP地址,互联网,网络
+content:
+IP 地址用于在网络中标识设备的位置，便于数据包在网络中被寻址和转发。域名系统可以把便于记忆的域名转换为对应的 IP 地址。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_023
+category: 常识
+title: 人工智能与机器学习
+keywords: 人工智能,机器学习,深度学习
+content:
+人工智能是研究如何让机器表现出智能行为的领域。机器学习是人工智能的重要分支，通过数据训练模型；深度学习又是机器学习中的一种方法，常使用多层神经网络。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_024
+category: 常识
+title: 隐私保护中的脱敏
+keywords: 隐私,脱敏,个人信息
+content:
+数据脱敏是保护个人信息的一种常见方法。它通过隐藏、替换或模糊化姓名、手机号、身份证号等敏感字段，降低数据泄露后的风险。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_COMMON_025
+category: 常识
+title: 近似干扰：开水不是消毒万能方法
+keywords: 开水,消毒,干扰文档
+content:
+煮沸可以杀灭许多常见微生物，但并不意味着所有有害物质都能通过烧开去除。例如某些化学污染物、重金属或耐热毒素并不会因为水被煮沸而完全消失。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_001
+category: 操作系统
+title: 进程与线程的区别
+keywords: 进程,线程,资源分配,调度
+content:
+进程是程序的一次执行过程，通常拥有独立的地址空间和系统资源，是操作系统进行资源分配的基本单位。线程存在于进程内部，同一进程中的多个线程可以共享该进程的资源，线程通常被看作 CPU 调度的基本单位。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_002
+category: 操作系统
+title: 程序、进程和作业
+keywords: 程序,进程,作业
+content:
+程序是存放在磁盘上的静态代码和数据，进程是程序运行时的动态活动。作业一般指用户提交给系统的一项完整工作，在批处理系统中常包含程序、数据和控制说明。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_003
+category: 操作系统
+title: 进程状态转换
+keywords: 进程状态,就绪,运行,阻塞
+content:
+进程常见状态包括就绪、运行和阻塞。就绪态表示进程已经具备运行条件但尚未获得 CPU；运行态表示进程正在 CPU 上执行；阻塞态表示进程等待某个事件完成，例如等待 I/O。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_004
+category: 操作系统
+title: 进程控制块PCB
+keywords: PCB,进程控制块,操作系统
+content:
+进程控制块 PCB 是操作系统管理进程的重要数据结构，通常保存进程标识、状态、程序计数器、寄存器内容、调度信息、内存信息和打开文件等内容。操作系统通过 PCB 感知和控制进程。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_005
+category: 操作系统
+title: 上下文切换
+keywords: 上下文切换,CPU,寄存器
+content:
+上下文切换指 CPU 从一个进程或线程切换到另一个进程或线程时，保存当前执行现场并恢复另一个执行现场的过程。上下文切换需要保存寄存器、程序计数器等信息，会带来一定系统开销。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_006
+category: 操作系统
+title: 临界区与互斥
+keywords: 临界区,互斥,共享资源
+content:
+临界区是访问共享资源的代码段。如果多个并发进程或线程同时进入临界区，可能导致数据不一致。因此操作系统需要通过互斥锁、信号量等机制保证同一时刻只有一个执行流访问关键共享资源。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_007
+category: 操作系统
+title: 信号量机制
+keywords: 信号量,P操作,V操作
+content:
+信号量是一种同步与互斥机制，通常配合 P 操作和 V 操作使用。P 操作表示申请资源，可能导致进程阻塞；V 操作表示释放资源，可能唤醒等待进程。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_008
+category: 操作系统
+title: 死锁必要条件
+keywords: 死锁,互斥,请求保持,不可剥夺,循环等待
+content:
+死锁产生通常需要四个必要条件：互斥条件、请求并保持条件、不可剥夺条件和循环等待条件。破坏其中任意一个条件，都可以用于预防死锁。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_009
+category: 操作系统
+title: 银行家算法基本思想
+keywords: 银行家算法,死锁避免,安全状态
+content:
+银行家算法是一种死锁避免算法。系统在分配资源前会判断分配后是否仍处于安全状态，只有不会使系统进入不安全状态时才真正分配资源。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_010
+category: 操作系统
+title: 分页存储管理
+keywords: 分页,页,页框,地址转换
+content:
+分页存储管理把进程逻辑地址空间划分为固定大小的页，把物理内存划分为同样大小的页框。地址转换时，页号通过页表找到对应页框号，页内偏移保持不变。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_011
+category: 操作系统
+title: 页表项与页面大小
+keywords: 页表项,页面大小,页表
+content:
+页表项用于记录虚拟页到物理页框的映射关系，通常还包括有效位、访问位、修改位和权限位等信息。页面大小表示一页能够容纳的数据量，二者不是同一个概念。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_012
+category: 操作系统
+title: 快表TLB
+keywords: TLB,快表,地址转换
+content:
+快表 TLB 是一种高速缓存，用于保存最近使用过的页表项。CPU 进行地址转换时先查 TLB，命中则可以快速得到页框号；未命中时再访问页表。TLB 可以减少地址转换所需的内存访问次数。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_013
+category: 操作系统
+title: 多级页表
+keywords: 多级页表,页表,内存管理
+content:
+多级页表把页表本身分层管理，可以避免为大而稀疏的虚拟地址空间一次性分配完整页表。它节省页表占用的内存，但地址转换过程可能需要更多次内存访问，因此常与 TLB 配合使用。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_014
+category: 操作系统
+title: 页面置换算法
+keywords: 页面置换,FIFO,LRU,OPT
+content:
+当发生缺页且内存没有空闲页框时，操作系统需要选择一个页面换出。常见页面置换算法包括先进先出 FIFO、最近最少使用 LRU 和理论最优 OPT。OPT 依赖未来访问序列，主要用于理论比较。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_015
+category: 操作系统
+title: 简单时钟置换算法
+keywords: Clock,访问位,页面置换
+content:
+简单时钟置换算法为每个页面设置访问位，并用指针循环扫描页框。若访问位为 0，则选择该页换出；若访问位为 1，则将其清零并跳过，继续扫描。它是对 LRU 思想的一种近似实现。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_016
+category: 操作系统
+title: 缺页中断
+keywords: 缺页中断,虚拟内存,页面调入
+content:
+当进程访问的虚拟页面不在物理内存中时，会发生缺页中断。操作系统需要找到所需页面，将其从外存调入内存，必要时还要进行页面置换，然后恢复被中断的进程执行。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_017
+category: 操作系统
+title: 段式管理
+keywords: 段式存储,段号,段内偏移
+content:
+段式存储管理按照程序的逻辑结构划分地址空间，例如代码段、数据段和栈段。逻辑地址通常由段号和段内偏移组成，段表记录每个段的基址、长度和访问权限。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_018
+category: 操作系统
+title: 文件系统目录
+keywords: 文件系统,目录,路径
+content:
+文件系统通过目录组织文件。路径用于表示文件在目录层次中的位置，绝对路径从根目录开始描述，相对路径则相对于当前工作目录描述。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_019
+category: 操作系统
+title: 磁盘调度算法
+keywords: 磁盘调度,FCFS,SSTF,SCAN
+content:
+磁盘调度算法用于决定磁头访问磁盘请求的顺序。FCFS 按请求到达顺序服务；SSTF 优先服务距离当前磁头最近的请求；SCAN 算法让磁头像电梯一样沿一个方向移动并服务请求，再改变方向。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_020
+category: 操作系统
+title: I/O控制方式
+keywords: I/O,程序查询,中断,DMA
+content:
+常见 I/O 控制方式包括程序查询方式、中断驱动方式和 DMA 方式。程序查询会让 CPU 反复检查设备状态；中断方式由设备就绪时通知 CPU；DMA 方式允许数据在设备和内存之间直接传输，减少 CPU 搬运数据的负担。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_021
+category: 操作系统
+title: DMA的作用
+keywords: DMA,内存,外设
+content:
+DMA 控制器可以在外设和内存之间直接传输数据。CPU 通常负责初始化 DMA 传输参数并在传输完成后处理中断，但大批量数据搬运过程主要由 DMA 控制器完成。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_022
+category: 操作系统
+title: 内核态与用户态
+keywords: 内核态,用户态,系统调用
+content:
+现代操作系统通常区分用户态和内核态。普通应用程序运行在用户态，不能直接执行特权指令；当应用需要访问文件、网络或设备等系统资源时，通常通过系统调用进入内核态完成请求。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_023
+category: 操作系统
+title: 系统调用
+keywords: 系统调用,操作系统接口,内核
+content:
+系统调用是用户程序请求操作系统内核服务的接口。文件读写、进程创建、内存申请和网络通信等操作通常都需要通过系统调用完成。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_024
+category: 操作系统
+title: 缓冲区的作用
+keywords: 缓冲区,I/O,速度匹配
+content:
+缓冲区用于协调高速部件和低速部件之间的速度差异，减少频繁等待。例如输入输出系统中常通过缓冲区暂存数据，从而提高设备和 CPU 的并行工作程度。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_OS_025
+category: 操作系统
+title: 近似干扰：线程不是资源分配基本单位
+keywords: 线程,资源,干扰文档
+content:
+线程共享所属进程的大部分资源，因此通常不被描述为系统资源分配的基本单位。某些系统会为线程保存独立栈和寄存器上下文，但这不等于线程拥有完全独立的地址空间。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_001
+category: 软件工程
+title: 软件工程的目标
+keywords: 软件工程,质量,成本,进度
+content:
+软件工程关注如何用系统化、规范化、可度量的方法开发和维护软件。它不仅关心程序能否运行，还关心质量、成本、进度、可维护性、可靠性和用户需求。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_002
+category: 软件工程
+title: 瀑布模型
+keywords: Waterfall,瀑布模型,软件过程
+content:
+瀑布模型把软件开发划分为需求分析、系统设计、实现、测试、部署和维护等顺序阶段。它强调阶段文档和前后衔接，适合需求比较稳定的项目，但不适合频繁变化的需求环境。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_003
+category: 软件工程
+title: 敏捷开发
+keywords: Agile,敏捷,迭代
+content:
+敏捷开发强调快速迭代、持续交付、用户反馈和团队协作。相比一次性完成全部设计，敏捷更重视在短周期内交付可工作的软件，并根据反馈不断调整。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_004
+category: 软件工程
+title: 极限编程XP
+keywords: Extreme Programming,XP,敏捷实践
+content:
+极限编程是敏捷方法的一种，强调小版本发布、持续集成、测试驱动开发、结对编程、重构和客户参与。它希望通过高频反馈降低需求变化带来的风险。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_005
+category: 软件工程
+title: 结对编程
+keywords: Pair Programming,结对编程,代码质量
+content:
+结对编程通常由两名程序员共同完成同一段代码，一人负责输入代码，另一人负责审查思路、发现问题并提出改进。角色可以定期交换，以提高代码质量和知识共享程度。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_006
+category: 软件工程
+title: 测试驱动开发TDD
+keywords: TDD,测试驱动开发,单元测试
+content:
+测试驱动开发要求在编写功能代码之前先编写测试用例。开发过程通常遵循先写失败测试、再写刚好通过测试的代码、最后重构的循环。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_007
+category: 软件工程
+title: 重构
+keywords: Refactoring,重构,代码质量
+content:
+重构是在不改变软件外部可观察行为的前提下，改善内部结构的过程。重构可以提高代码可读性、可维护性和可扩展性，但需要测试保护以避免引入新错误。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_008
+category: 软件工程
+title: 调试与测试
+keywords: Debugging,Testing,错误定位
+content:
+测试的主要目标是发现程序中存在缺陷或证明软件在特定条件下满足要求；调试则是在发现错误后定位原因并修复问题。测试能暴露错误，调试负责找出错误根源。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_009
+category: 软件工程
+title: 验证与确认V&V
+keywords: V&V,Verification,Validation
+content:
+验证与确认常缩写为 V&V。Verification 关注是否按照规格说明正确构建产品，即“是否把产品做对”；Validation 关注产品是否满足用户真实需要，即“是否做了正确的产品”。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_010
+category: 软件工程
+title: 利益相关者
+keywords: Stakeholders,利益相关者,需求
+content:
+利益相关者是受到系统影响或能够影响系统的人、组织或群体。用户、客户、开发人员、维护人员、管理者、监管机构都可能是软件项目的利益相关者。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_011
+category: 软件工程
+title: 需求工程
+keywords: 需求工程,需求获取,需求分析
+content:
+需求工程包括需求获取、需求分析、需求规格说明、需求验证和需求管理等活动。其目标是理解用户真正需要什么，并把这些需求以清晰、可检查的形式表达出来。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_012
+category: 软件工程
+title: 场景与用例
+keywords: Scenarios,Use Case,需求分析
+content:
+场景描述用户在具体情境下如何与系统交互，常用于理解需求和发现异常情况。用例则更系统地描述参与者与系统之间为实现某个目标而发生的一系列交互。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_013
+category: 软件工程
+title: 民族志方法
+keywords: Ethnography,需求获取,用户观察
+content:
+民族志方法在软件工程中常用于需求获取。研究者通过观察用户在真实工作环境中的行为、交流和工具使用，发现用户可能难以主动说出的隐性需求。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_014
+category: 软件工程
+title: 体系结构设计
+keywords: Architectural Design,架构,组件
+content:
+体系结构设计关注系统的高层结构，包括主要组件、组件之间的连接方式、数据流和控制关系。良好的架构可以影响系统的性能、可维护性、安全性和可扩展性。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_015
+category: 软件工程
+title: 设计模式
+keywords: Design Patterns,复用,面向对象
+content:
+设计模式是在特定上下文中解决常见设计问题的可复用方案。它不是可以直接运行的代码，而是一种经过总结的设计经验，例如单例、工厂、观察者和适配器等。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_016
+category: 软件工程
+title: 框架与库
+keywords: Framework,Library,软件复用
+content:
+库通常由应用程序主动调用，开发者控制程序整体流程；框架则通常定义应用的整体结构和控制流程，开发者在框架规定的位置填充业务逻辑。框架体现了控制反转思想。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_017
+category: 软件工程
+title: 软件复用
+keywords: Software Reuse,复用,组件
+content:
+软件复用指在新系统中使用已有软件资产，例如代码库、组件、框架、设计模式、测试用例或需求模型。复用可以提高开发效率，但需要考虑适配成本和质量风险。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_018
+category: 软件工程
+title: 软件产品线
+keywords: Software Product Line,产品线,复用
+content:
+软件产品线是一组具有共同特征、面向相似市场或任务的软件系统。它通过核心资产和可变点管理来支持多个相关产品的系统化复用。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_019
+category: 软件工程
+title: 遗留系统
+keywords: Legacy Systems,遗留系统,维护
+content:
+遗留系统是仍在使用但采用旧技术、旧架构或旧平台构建的软件系统。它们可能对业务很关键，但维护困难、文档不足、人员知识流失和迁移风险较高。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_020
+category: 软件工程
+title: 棕地系统
+keywords: Brownfield Systems,已有系统,集成
+content:
+棕地系统开发指在已有系统、旧数据、既有业务流程和历史约束基础上进行开发。与从零开始的绿地开发不同，棕地开发常面临兼容、迁移和集成问题。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_021
+category: 软件工程
+title: 社会技术系统
+keywords: Sociotechnical Systems,组织,人机系统
+content:
+社会技术系统强调软件系统不仅由技术组件构成，还与人、组织结构、工作流程、制度和文化相互作用。系统能否成功取决于技术设计与社会环境的匹配。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_022
+category: 软件工程
+title: 状态机模型
+keywords: State Machine Model,状态,转换
+content:
+状态机模型用状态和状态之间的转换描述系统行为。它适合表示对象或系统在事件触发下如何从一个状态转移到另一个状态，例如订单、门禁或通信协议。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_023
+category: 软件工程
+title: 软件维护类型
+keywords: 软件维护,纠错,适应,完善
+content:
+软件维护包括纠错性维护、适应性维护、完善性维护和预防性维护。纠错性维护修复错误，适应性维护适应环境变化，完善性维护改进功能或性能，预防性维护降低未来问题风险。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_024
+category: 软件工程
+title: 黑盒测试与白盒测试
+keywords: 黑盒测试,白盒测试,软件测试
+content:
+黑盒测试根据输入输出和需求规格设计测试，不关注程序内部结构；白盒测试基于程序内部逻辑设计测试，例如语句覆盖、分支覆盖和路径覆盖。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_SE_025
+category: 软件工程
+title: 近似干扰：设计模式不是框架
+keywords: 设计模式,框架,干扰文档
+content:
+设计模式与框架都能支持复用，但二者层次不同。设计模式是解决设计问题的抽象经验，框架则通常是一组可运行的软件结构和代码基础。把设计模式等同于框架会造成概念混淆。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_001
+category: 数据库系统
+title: 数据库系统组成
+keywords: 数据库,DBMS,用户
+content:
+数据库系统通常由数据库、数据库管理系统 DBMS、数据库应用程序、数据库管理员和用户等部分组成。DBMS 负责数据定义、数据操纵、事务管理、安全控制和恢复等功能。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_002
+category: 数据库系统
+title: 三级模式结构
+keywords: 外模式,模式,内模式
+content:
+数据库的三级模式结构包括外模式、模式和内模式。外模式面向用户视图，模式描述数据库的全局逻辑结构，内模式描述数据在存储介质上的物理组织方式。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_003
+category: 数据库系统
+title: 数据独立性
+keywords: 逻辑独立性,物理独立性,数据库
+content:
+数据独立性包括逻辑独立性和物理独立性。逻辑独立性指模式改变时尽量不影响外模式和应用程序；物理独立性指内模式改变时尽量不影响模式和应用程序。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_004
+category: 数据库系统
+title: 关系模型三要素
+keywords: 关系模型,数据结构,完整性,操作
+content:
+关系模型通常包括关系数据结构、关系操作和关系完整性约束三部分。关系用二维表表示，常见操作包括选择、投影、连接、并、差和除等。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_005
+category: 数据库系统
+title: 主码与外码
+keywords: 主码,外码,实体完整性
+content:
+主码用于唯一标识关系中的元组，主码属性不能取空值。外码用于表示一个关系中的属性引用另一个关系的主码，从而建立关系之间的联系并维护参照完整性。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_006
+category: 数据库系统
+title: 实体完整性与参照完整性
+keywords: 完整性,实体完整性,参照完整性
+content:
+实体完整性要求关系的主码不能为空，以保证每个元组可以被唯一识别。参照完整性要求外码的取值要么为空，要么等于被参照关系中某个主码值。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_007
+category: 数据库系统
+title: 选择和投影
+keywords: 关系代数,选择,投影
+content:
+选择运算根据给定条件从关系中筛选行，记作 σ；投影运算从关系中选取指定属性列，记作 π。选择改变元组数量，投影改变属性列集合，并可能去除重复元组。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_008
+category: 数据库系统
+title: 连接运算
+keywords: 连接,自然连接,等值连接
+content:
+连接运算用于根据某种条件把两个关系的元组组合起来。等值连接要求连接条件为属性相等，自然连接会自动按同名属性做等值连接，并在结果中去掉重复的同名属性列。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_009
+category: 数据库系统
+title: 除运算的含义
+keywords: 关系代数,除法,全部
+content:
+关系代数中的除运算常用于表达“对于所有”的查询语义。例如查询选修了全部指定课程的学生，可以使用除法思想。除法适合处理一个对象必须关联到一组全部对象的情况。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_010
+category: 数据库系统
+title: SQL查询基本结构
+keywords: SQL,SELECT,WHERE
+content:
+SQL 查询常见结构包括 SELECT、FROM、WHERE、GROUP BY、HAVING 和 ORDER BY。SELECT 指定输出列，FROM 指定数据来源，WHERE 过滤行，GROUP BY 分组，HAVING 过滤分组，ORDER BY 排序。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_011
+category: 数据库系统
+title: GROUP BY与HAVING
+keywords: GROUP BY,HAVING,聚合
+content:
+GROUP BY 用于按照某些列把行分成若干组，常与 COUNT、SUM、AVG、MAX、MIN 等聚合函数一起使用。HAVING 用于对分组后的结果进行过滤，而 WHERE 用于分组之前过滤原始行。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_012
+category: 数据库系统
+title: 视图
+keywords: 视图,VIEW,虚表
+content:
+视图是由查询定义的虚表，数据库中通常保存视图定义而不是完整结果数据。视图可以简化复杂查询、提供一定安全控制并增强逻辑独立性，但更新视图可能受到限制。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_013
+category: 数据库系统
+title: 索引
+keywords: 索引,B+树,查询效率
+content:
+索引是一种辅助数据结构，用于提高查询速度。数据库常用 B+ 树索引支持范围查询和排序。索引可以加快读操作，但会占用额外空间，并增加插入、删除和更新时的维护成本。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_014
+category: 数据库系统
+title: 事务ACID
+keywords: 事务,ACID,原子性,一致性
+content:
+事务是数据库中一个不可分割的逻辑工作单位。ACID 特性包括原子性、一致性、隔离性和持久性。原子性要求事务中的操作要么全做要么全不做，持久性要求提交后的结果能长期保存。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_015
+category: 数据库系统
+title: 并发控制与封锁
+keywords: 并发控制,锁,事务
+content:
+并发控制用于解决多个事务同时执行时可能出现的数据不一致问题。封锁机制通过对数据对象加锁来控制访问，常见锁类型包括共享锁和排他锁。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_016
+category: 数据库系统
+title: 脏读、不可重复读和幻读
+keywords: 脏读,不可重复读,幻读
+content:
+脏读指一个事务读取了另一个尚未提交事务修改的数据；不可重复读指同一事务两次读取同一数据项得到不同结果；幻读指同一事务两次按条件查询得到的记录集合发生变化。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_017
+category: 数据库系统
+title: 三级封锁协议
+keywords: 封锁协议,并发控制,一致性
+content:
+封锁协议通过规定加锁和解锁时机来保证事务并发执行的正确性。不同级别的封锁协议对脏读、不可重复读等问题的防止能力不同，通常限制越严格，并发度越低。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_018
+category: 数据库系统
+title: 数据库恢复
+keywords: 恢复,日志,故障
+content:
+数据库恢复依赖日志等机制在故障后恢复一致状态。事务提交前后的日志记录可以支持撤销未完成事务和重做已提交事务，从而保证数据可靠性。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_019
+category: 数据库系统
+title: 函数依赖
+keywords: 函数依赖,属性,关系模式
+content:
+在关系模式中，如果属性集 X 的值能够唯一决定属性集 Y 的值，则称 X 函数决定 Y，记作 X→Y。函数依赖是判断候选码、范式和模式分解的重要基础。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_020
+category: 数据库系统
+title: 候选码
+keywords: 候选码,超码,属性闭包
+content:
+候选码是能够唯一标识关系中元组的最小属性集。判断候选码时常计算属性闭包：如果某属性集的闭包包含全部属性，说明它是超码；如果去掉任一属性后不再是超码，则它是候选码。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_021
+category: 数据库系统
+title: 第一范式到第三范式
+keywords: 1NF,2NF,3NF,范式
+content:
+第一范式要求属性不可再分。第二范式在第一范式基础上要求非主属性完全函数依赖于候选码，消除部分依赖。第三范式进一步要求非主属性不传递依赖于候选码。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_022
+category: 数据库系统
+title: BCNF
+keywords: BCNF,范式,决定因素
+content:
+BCNF 是比第三范式更严格的范式。一个关系模式满足 BCNF，通常要求每一个非平凡函数依赖 X→Y 中，X 都必须是超码。BCNF 可以进一步减少由函数依赖导致的异常。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_023
+category: 数据库系统
+title: 模式分解
+keywords: 模式分解,无损连接,保持依赖
+content:
+关系模式分解希望减少冗余和异常。好的分解通常要求无损连接，并尽量保持函数依赖。无损连接保证分解后的关系通过连接能够恢复原关系信息。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_024
+category: 数据库系统
+title: ER模型
+keywords: ER模型,实体,联系,属性
+content:
+ER 模型用实体、属性和联系描述现实世界的数据结构。实体表示可区分的对象，属性描述实体特征，联系表示实体之间的关联。ER 图常用于数据库概念结构设计。
+===== DOC END =====
+
+===== DOC START =====
+doc_id: KB_DB_025
+category: 数据库系统
+title: 近似干扰：WHERE不是分组后筛选
+keywords: WHERE,HAVING,干扰文档
+content:
+WHERE 和 HAVING 都可以写条件，但作用阶段不同。WHERE 在分组和聚合之前过滤行，HAVING 在 GROUP BY 分组和聚合之后过滤分组。把二者混用会导致 SQL 逻辑错误。
+===== DOC END =====

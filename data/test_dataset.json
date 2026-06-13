@@ -1,0 +1,1083 @@
+[
+  {
+    "id": "QA001",
+    "category": "常识",
+    "question": "水的化学式是什么？",
+    "standard_answer": "水的化学式是 H2O。",
+    "reference_evidence": "水分子由两个氢原子和一个氧原子组成，因此化学式写作 H2O。",
+    "tags": [
+      "化学",
+      "基础常识"
+    ]
+  },
+  {
+    "id": "QA002",
+    "category": "常识",
+    "question": "地球绕着哪个天体公转？",
+    "standard_answer": "地球绕太阳公转。",
+    "reference_evidence": "在太阳系中，地球是一颗行星，它沿轨道围绕太阳运动。",
+    "tags": [
+      "天文",
+      "基础常识"
+    ]
+  },
+  {
+    "id": "QA003",
+    "category": "常识",
+    "question": "地球唯一的天然卫星是什么？",
+    "standard_answer": "地球唯一的天然卫星是月球。",
+    "reference_evidence": "月球是围绕地球运行的天然卫星，也是地球唯一的天然卫星。",
+    "tags": [
+      "天文"
+    ]
+  },
+  {
+    "id": "QA004",
+    "category": "常识",
+    "question": "真空中的光速约为多少？",
+    "standard_answer": "真空中的光速约为每秒 299792458 米。",
+    "reference_evidence": "在国际单位制中，真空光速被定义为 299792458 m/s。",
+    "tags": [
+      "物理"
+    ]
+  },
+  {
+    "id": "QA005",
+    "category": "常识",
+    "question": "标准大气压下，水的沸点约是多少摄氏度？",
+    "standard_answer": "标准大气压下，水的沸点约为 100 摄氏度。",
+    "reference_evidence": "在 1 个标准大气压条件下，纯水通常在 100℃ 左右沸腾。",
+    "tags": [
+      "物理",
+      "化学"
+    ]
+  },
+  {
+    "id": "QA006",
+    "category": "常识",
+    "question": "圆周率 π 表示什么？",
+    "standard_answer": "π 表示圆的周长与直径的比值。",
+    "reference_evidence": "任意圆的周长除以直径都得到同一个常数，这个常数记为 π。",
+    "tags": [
+      "数学"
+    ]
+  },
+  {
+    "id": "QA007",
+    "category": "常识",
+    "question": "DNA 的经典结构通常被称为什么？",
+    "standard_answer": "DNA 的经典结构通常被称为双螺旋结构。",
+    "reference_evidence": "DNA 由两条互补链组成，整体呈双螺旋形态。",
+    "tags": [
+      "生物"
+    ]
+  },
+  {
+    "id": "QA008",
+    "category": "常识",
+    "question": "成年人全身骨骼通常约有多少块？",
+    "standard_answer": "成年人全身骨骼通常约有 206 块。",
+    "reference_evidence": "人体成年后骨骼数量通常约为 206 块，个体之间可能存在少量差异。",
+    "tags": [
+      "生物",
+      "人体"
+    ]
+  },
+  {
+    "id": "QA009",
+    "category": "常识",
+    "question": "植物进行光合作用通常需要哪些基本条件？",
+    "standard_answer": "植物光合作用通常需要光、二氧化碳和水。",
+    "reference_evidence": "绿色植物利用光能，把二氧化碳和水转化为有机物，并释放氧气。",
+    "tags": [
+      "生物"
+    ]
+  },
+  {
+    "id": "QA010",
+    "category": "常识",
+    "question": "声音能在真空中传播吗？",
+    "standard_answer": "声音不能在真空中传播。",
+    "reference_evidence": "声音是机械波，需要空气、水或固体等介质传播，真空中缺少传播介质。",
+    "tags": [
+      "物理"
+    ]
+  },
+  {
+    "id": "QA011",
+    "category": "常识",
+    "question": "世界上面积最大的海洋是哪一个？",
+    "standard_answer": "世界上面积最大的海洋是太平洋。",
+    "reference_evidence": "太平洋是地球上面积最大的海洋，位于亚洲、大洋洲、美洲和南极洲之间。",
+    "tags": [
+      "地理"
+    ]
+  },
+  {
+    "id": "QA012",
+    "category": "常识",
+    "question": "世界上海拔最高的山峰是哪一座？",
+    "standard_answer": "世界上海拔最高的山峰是珠穆朗玛峰。",
+    "reference_evidence": "珠穆朗玛峰位于喜马拉雅山脉，是按海拔计算的世界最高峰。",
+    "tags": [
+      "地理"
+    ]
+  },
+  {
+    "id": "QA013",
+    "category": "常识",
+    "question": "撒哈拉沙漠属于哪种著名地理类型？",
+    "standard_answer": "撒哈拉沙漠是世界上著名的大型热带沙漠。",
+    "reference_evidence": "撒哈拉沙漠位于非洲北部，是世界上面积最大的热带沙漠之一。",
+    "tags": [
+      "地理"
+    ]
+  },
+  {
+    "id": "QA014",
+    "category": "常识",
+    "question": "《哈姆雷特》的作者是谁？",
+    "standard_answer": "《哈姆雷特》的作者是威廉·莎士比亚。",
+    "reference_evidence": "《哈姆雷特》是英国剧作家威廉·莎士比亚创作的著名悲剧。",
+    "tags": [
+      "文学"
+    ]
+  },
+  {
+    "id": "QA015",
+    "category": "常识",
+    "question": "第二次世界大战通常认为在哪一年结束？",
+    "standard_answer": "第二次世界大战通常认为在 1945 年结束。",
+    "reference_evidence": "1945 年德国和日本先后战败投降，第二次世界大战结束。",
+    "tags": [
+      "历史"
+    ]
+  },
+  {
+    "id": "QA016",
+    "category": "常识",
+    "question": "元素周期表中，元素的原子序数表示什么？",
+    "standard_answer": "原子序数表示元素原子核中的质子数。",
+    "reference_evidence": "元素的原子序数等于原子核内质子数，它决定元素的种类。",
+    "tags": [
+      "化学"
+    ]
+  },
+  {
+    "id": "QA017",
+    "category": "常识",
+    "question": "火星为什么常被称为红色星球？",
+    "standard_answer": "火星表面富含氧化铁，因此呈现红色外观。",
+    "reference_evidence": "火星土壤和岩石中含有氧化铁成分，使其在观测中呈红色或橙红色。",
+    "tags": [
+      "天文"
+    ]
+  },
+  {
+    "id": "QA018",
+    "category": "常识",
+    "question": "人体血液循环的主要动力器官是什么？",
+    "standard_answer": "人体血液循环的主要动力器官是心脏。",
+    "reference_evidence": "心脏通过收缩和舒张推动血液在血管系统中循环。",
+    "tags": [
+      "生物",
+      "人体"
+    ]
+  },
+  {
+    "id": "QA019",
+    "category": "常识",
+    "question": "国际单位制中长度的基本单位是什么？",
+    "standard_answer": "国际单位制中长度的基本单位是米。",
+    "reference_evidence": "米是国际单位制中用于度量长度的基本单位。",
+    "tags": [
+      "物理",
+      "单位"
+    ]
+  },
+  {
+    "id": "QA020",
+    "category": "常识",
+    "question": "酸雨通常与哪两类污染物有关？",
+    "standard_answer": "酸雨通常与硫氧化物和氮氧化物有关。",
+    "reference_evidence": "硫氧化物和氮氧化物进入大气后可形成酸性物质，并随降水落到地面。",
+    "tags": [
+      "环境"
+    ]
+  },
+  {
+    "id": "QA021",
+    "category": "常识",
+    "question": "牛顿第一定律又常被称为什么定律？",
+    "standard_answer": "牛顿第一定律常被称为惯性定律。",
+    "reference_evidence": "牛顿第一定律指出物体在不受外力或合外力为零时保持静止或匀速直线运动状态。",
+    "tags": [
+      "物理"
+    ]
+  },
+  {
+    "id": "QA022",
+    "category": "常识",
+    "question": "计算机中 bit 通常表示什么？",
+    "standard_answer": "bit 通常表示二进制位。",
+    "reference_evidence": "bit 是 binary digit 的缩写，是计算机中表示 0 或 1 的最小信息单位。",
+    "tags": [
+      "计算机基础"
+    ]
+  },
+  {
+    "id": "QA023",
+    "category": "常识",
+    "question": "CPU 的中文常用名称是什么？",
+    "standard_answer": "CPU 的中文常用名称是中央处理器。",
+    "reference_evidence": "CPU 是 Central Processing Unit 的缩写，通常译为中央处理器。",
+    "tags": [
+      "计算机基础"
+    ]
+  },
+  {
+    "id": "QA024",
+    "category": "常识",
+    "question": "因特网使用的基础协议族通常称为什么？",
+    "standard_answer": "因特网使用的基础协议族通常称为 TCP/IP 协议族。",
+    "reference_evidence": "TCP/IP 协议族是互联网通信的基础协议体系，包括 IP、TCP、UDP 等协议。",
+    "tags": [
+      "计算机网络"
+    ]
+  },
+  {
+    "id": "QA025",
+    "category": "常识",
+    "question": "彩虹通常是由什么物理现象形成的？",
+    "standard_answer": "彩虹通常由光的折射、反射和色散形成。",
+    "reference_evidence": "太阳光进入水滴后发生折射、内部反射和色散，不同颜色光分离形成彩虹。",
+    "tags": [
+      "物理"
+    ]
+  },
+  {
+    "id": "QA026",
+    "category": "操作系统",
+    "question": "操作系统的核心作用是什么？",
+    "standard_answer": "操作系统负责管理计算机硬件资源，并为应用程序提供运行环境。",
+    "reference_evidence": "操作系统位于硬件和应用程序之间，管理 CPU、内存、文件和 I/O 设备等资源。",
+    "tags": [
+      "OS",
+      "概念"
+    ]
+  },
+  {
+    "id": "QA027",
+    "category": "操作系统",
+    "question": "进程和程序的主要区别是什么？",
+    "standard_answer": "程序是静态代码，进程是程序的一次运行过程。",
+    "reference_evidence": "程序存放在磁盘中，本身是静态的；进程包含程序代码、数据、寄存器状态和资源，是动态执行实体。",
+    "tags": [
+      "OS",
+      "进程"
+    ]
+  },
+  {
+    "id": "QA028",
+    "category": "操作系统",
+    "question": "线程和进程相比，共享的内容通常更多还是更少？",
+    "standard_answer": "同一进程内的线程共享内容更多。",
+    "reference_evidence": "同一进程的多个线程通常共享地址空间、全局变量和打开文件，但拥有各自的栈和寄存器上下文。",
+    "tags": [
+      "OS",
+      "线程"
+    ]
+  },
+  {
+    "id": "QA029",
+    "category": "操作系统",
+    "question": "系统调用的作用是什么？",
+    "standard_answer": "系统调用用于让用户程序请求操作系统内核提供服务。",
+    "reference_evidence": "用户程序不能直接执行许多特权操作，需要通过系统调用进入内核态完成文件、进程、内存和 I/O 等操作。",
+    "tags": [
+      "OS",
+      "系统调用"
+    ]
+  },
+  {
+    "id": "QA030",
+    "category": "操作系统",
+    "question": "用户态和内核态的区别是什么？",
+    "standard_answer": "用户态权限较低，内核态可以执行特权指令并访问关键系统资源。",
+    "reference_evidence": "现代操作系统通过用户态和内核态隔离应用程序与内核，防止普通程序随意破坏系统资源。",
+    "tags": [
+      "OS",
+      "内核"
+    ]
+  },
+  {
+    "id": "QA031",
+    "category": "操作系统",
+    "question": "中断机制的作用是什么？",
+    "standard_answer": "中断机制使 CPU 能够暂停当前程序，转去处理外部或内部事件。",
+    "reference_evidence": "设备完成 I/O、时钟到达或异常发生时，可以通过中断通知 CPU 执行相应的中断处理程序。",
+    "tags": [
+      "OS",
+      "中断"
+    ]
+  },
+  {
+    "id": "QA032",
+    "category": "操作系统",
+    "question": "DMA 的主要作用是什么？",
+    "standard_answer": "DMA 允许外设和内存之间直接传输数据，减少 CPU 参与。",
+    "reference_evidence": "直接存储器访问技术由 DMA 控制器负责数据搬运，CPU 主要负责初始化和处理完成中断。",
+    "tags": [
+      "OS",
+      "I/O"
+    ]
+  },
+  {
+    "id": "QA033",
+    "category": "操作系统",
+    "question": "虚拟内存的主要目的是什么？",
+    "standard_answer": "虚拟内存为进程提供连续、独立的地址空间，并支持按需调入。",
+    "reference_evidence": "虚拟内存通过地址转换和外存辅助，使程序看到比实际物理内存更灵活的逻辑地址空间。",
+    "tags": [
+      "OS",
+      "内存管理"
+    ]
+  },
+  {
+    "id": "QA034",
+    "category": "操作系统",
+    "question": "分页存储管理中，逻辑地址通常由哪两部分组成？",
+    "standard_answer": "逻辑地址通常由页号和页内偏移组成。",
+    "reference_evidence": "分页系统把逻辑地址划分为页号和页内偏移，页号用于查页表，偏移用于定位页内具体位置。",
+    "tags": [
+      "OS",
+      "分页"
+    ]
+  },
+  {
+    "id": "QA035",
+    "category": "操作系统",
+    "question": "页表的作用是什么？",
+    "standard_answer": "页表用于记录逻辑页到物理块的映射关系。",
+    "reference_evidence": "CPU 访问虚拟地址时，需要通过页表把虚拟页号转换为物理页框号。",
+    "tags": [
+      "OS",
+      "页表"
+    ]
+  },
+  {
+    "id": "QA036",
+    "category": "操作系统",
+    "question": "快表 TLB 的作用是什么？",
+    "standard_answer": "TLB 用于缓存近期使用的页表项，加快地址转换。",
+    "reference_evidence": "TLB 是一种高速缓存，保存部分虚拟页号到物理页框号的映射，以减少访问页表的次数。",
+    "tags": [
+      "OS",
+      "TLB"
+    ]
+  },
+  {
+    "id": "QA037",
+    "category": "操作系统",
+    "question": "缺页中断什么时候发生？",
+    "standard_answer": "当进程访问的页面不在内存中时，会发生缺页中断。",
+    "reference_evidence": "按需分页系统中，若页表项显示目标页不在内存，硬件触发缺页中断，由操作系统调入页面。",
+    "tags": [
+      "OS",
+      "缺页"
+    ]
+  },
+  {
+    "id": "QA038",
+    "category": "操作系统",
+    "question": "LRU 页面置换算法依据什么选择淘汰页面？",
+    "standard_answer": "LRU 淘汰最近最久未被访问的页面。",
+    "reference_evidence": "LRU 的思想是根据局部性原理，认为最近长时间没有被访问的页面未来被访问的可能性较低。",
+    "tags": [
+      "OS",
+      "页面置换"
+    ]
+  },
+  {
+    "id": "QA039",
+    "category": "操作系统",
+    "question": "FIFO 页面置换算法依据什么选择淘汰页面？",
+    "standard_answer": "FIFO 淘汰最早进入内存的页面。",
+    "reference_evidence": "先进先出页面置换算法按照页面进入内存的先后顺序选择最老的页面换出。",
+    "tags": [
+      "OS",
+      "页面置换"
+    ]
+  },
+  {
+    "id": "QA040",
+    "category": "操作系统",
+    "question": "简单时钟页面置换算法通常检查页面的哪个标志位？",
+    "standard_answer": "简单时钟算法通常检查访问位。",
+    "reference_evidence": "简单时钟算法用环形指针扫描页面，如果访问位为 1 则清零并给第二次机会，访问位为 0 则可淘汰。",
+    "tags": [
+      "OS",
+      "页面置换"
+    ]
+  },
+  {
+    "id": "QA041",
+    "category": "操作系统",
+    "question": "死锁产生通常需要哪四个必要条件？",
+    "standard_answer": "死锁需要互斥、占有并等待、不可抢占和循环等待四个条件。",
+    "reference_evidence": "经典死锁理论认为，这四个条件同时成立时系统才可能出现死锁。",
+    "tags": [
+      "OS",
+      "死锁"
+    ]
+  },
+  {
+    "id": "QA042",
+    "category": "操作系统",
+    "question": "银行家算法主要用于处理什么问题？",
+    "standard_answer": "银行家算法主要用于死锁避免。",
+    "reference_evidence": "银行家算法通过判断资源分配后系统是否仍处于安全状态，决定是否满足进程的资源请求。",
+    "tags": [
+      "OS",
+      "死锁"
+    ]
+  },
+  {
+    "id": "QA043",
+    "category": "操作系统",
+    "question": "临界区是指什么？",
+    "standard_answer": "临界区是访问共享资源的代码段。",
+    "reference_evidence": "多个进程或线程访问共享变量、文件或设备时，相关代码段需要互斥执行，这段代码称为临界区。",
+    "tags": [
+      "OS",
+      "同步"
+    ]
+  },
+  {
+    "id": "QA044",
+    "category": "操作系统",
+    "question": "信号量通常用于解决什么问题？",
+    "standard_answer": "信号量通常用于进程或线程之间的同步与互斥。",
+    "reference_evidence": "信号量通过 P/V 操作控制资源访问数量，可用于互斥访问和同步顺序控制。",
+    "tags": [
+      "OS",
+      "同步"
+    ]
+  },
+  {
+    "id": "QA045",
+    "category": "操作系统",
+    "question": "时间片轮转调度算法适合哪类系统？",
+    "standard_answer": "时间片轮转调度算法适合分时系统。",
+    "reference_evidence": "时间片轮转让每个就绪进程轮流获得一个时间片，强调响应时间和公平性。",
+    "tags": [
+      "OS",
+      "调度"
+    ]
+  },
+  {
+    "id": "QA046",
+    "category": "操作系统",
+    "question": "短作业优先调度算法的主要优点是什么？",
+    "standard_answer": "短作业优先通常可以降低平均等待时间。",
+    "reference_evidence": "在已知运行时间的情况下，优先执行短作业能够减少许多作业的等待时间。",
+    "tags": [
+      "OS",
+      "调度"
+    ]
+  },
+  {
+    "id": "QA047",
+    "category": "操作系统",
+    "question": "文件系统目录的主要作用是什么？",
+    "standard_answer": "目录用于组织文件名和文件控制信息，帮助用户定位文件。",
+    "reference_evidence": "文件系统通过目录结构管理文件，使用户可以按路径查找、创建、删除和访问文件。",
+    "tags": [
+      "OS",
+      "文件系统"
+    ]
+  },
+  {
+    "id": "QA048",
+    "category": "操作系统",
+    "question": "磁盘调度中，SCAN 算法的基本思想是什么？",
+    "standard_answer": "SCAN 算法让磁头按一个方向移动并服务请求，到达边界后再反向。",
+    "reference_evidence": "SCAN 又称电梯算法，磁头像电梯一样沿一个方向处理请求，再改变方向继续处理。",
+    "tags": [
+      "OS",
+      "磁盘调度"
+    ]
+  },
+  {
+    "id": "QA049",
+    "category": "操作系统",
+    "question": "连续内存分配容易产生哪类碎片问题？",
+    "standard_answer": "连续内存分配容易产生外部碎片。",
+    "reference_evidence": "连续分配要求进程占用一整块连续内存，空闲区之间可能被已分配区隔开，形成外部碎片。",
+    "tags": [
+      "OS",
+      "内存管理"
+    ]
+  },
+  {
+    "id": "QA050",
+    "category": "操作系统",
+    "question": "交换技术中的换入和换出指什么？",
+    "standard_answer": "换出是把进程或页面从内存移到外存，换入是从外存调回内存。",
+    "reference_evidence": "交换技术通过在内存和外存之间移动进程或页面，提高内存利用率并支持多道程序运行。",
+    "tags": [
+      "OS",
+      "内存管理"
+    ]
+  },
+  {
+    "id": "QA051",
+    "category": "软件工程",
+    "question": "瀑布模型的基本特点是什么？",
+    "standard_answer": "瀑布模型按需求、设计、实现、测试和维护等阶段顺序推进。",
+    "reference_evidence": "瀑布模型强调阶段划分和文档交付，通常要求前一阶段完成后再进入下一阶段。",
+    "tags": [
+      "软件工程",
+      "过程模型"
+    ]
+  },
+  {
+    "id": "QA052",
+    "category": "软件工程",
+    "question": "敏捷开发强调什么？",
+    "standard_answer": "敏捷开发强调快速迭代、持续反馈和适应变化。",
+    "reference_evidence": "敏捷方法通过短周期迭代交付可工作的软件，并根据客户反馈不断调整。",
+    "tags": [
+      "软件工程",
+      "敏捷"
+    ]
+  },
+  {
+    "id": "QA053",
+    "category": "软件工程",
+    "question": "极限编程 XP 中的结对编程是什么意思？",
+    "standard_answer": "结对编程是两名程序员共同在一台机器上完成代码编写和审查。",
+    "reference_evidence": "XP 提倡结对编程，一个人负责编写代码，另一个人实时观察、思考和审查，两者可轮换角色。",
+    "tags": [
+      "软件工程",
+      "XP"
+    ]
+  },
+  {
+    "id": "QA054",
+    "category": "软件工程",
+    "question": "测试驱动开发 TDD 的基本流程是什么？",
+    "standard_answer": "TDD 的基本流程是先写测试，再写代码，最后重构。",
+    "reference_evidence": "测试驱动开发通常遵循红灯、绿灯、重构循环：先让测试失败，再实现功能通过测试，然后改进代码结构。",
+    "tags": [
+      "软件工程",
+      "TDD"
+    ]
+  },
+  {
+    "id": "QA055",
+    "category": "软件工程",
+    "question": "重构的目标是什么？",
+    "standard_answer": "重构是在不改变外部行为的前提下改善代码内部结构。",
+    "reference_evidence": "重构关注代码可读性、可维护性和设计质量，要求软件对外表现保持不变。",
+    "tags": [
+      "软件工程",
+      "重构"
+    ]
+  },
+  {
+    "id": "QA056",
+    "category": "软件工程",
+    "question": "需求工程主要包括哪些活动？",
+    "standard_answer": "需求工程通常包括需求获取、分析、规格说明和验证。",
+    "reference_evidence": "需求工程关注理解用户需要，并把需求整理成可沟通、可检查和可实现的软件规格。",
+    "tags": [
+      "软件工程",
+      "需求"
+    ]
+  },
+  {
+    "id": "QA057",
+    "category": "软件工程",
+    "question": "利益相关者 Stakeholders 指什么？",
+    "standard_answer": "利益相关者是会影响系统或受系统影响的个人、群体或组织。",
+    "reference_evidence": "用户、客户、开发者、管理者、运维人员和监管机构都可能是软件系统的利益相关者。",
+    "tags": [
+      "软件工程",
+      "需求"
+    ]
+  },
+  {
+    "id": "QA058",
+    "category": "软件工程",
+    "question": "场景 Scenarios 在需求分析中有什么作用？",
+    "standard_answer": "场景用于描述用户在具体情境下如何与系统交互。",
+    "reference_evidence": "场景通过具体故事或步骤展示系统使用过程，有助于发现需求和理解用户目标。",
+    "tags": [
+      "软件工程",
+      "需求"
+    ]
+  },
+  {
+    "id": "QA059",
+    "category": "软件工程",
+    "question": "体系结构设计主要关注什么？",
+    "standard_answer": "体系结构设计关注系统的高层结构、主要组件及其关系。",
+    "reference_evidence": "软件体系结构决定系统由哪些部分组成、各部分如何通信以及如何满足性能、安全和可维护性等质量属性。",
+    "tags": [
+      "软件工程",
+      "架构"
+    ]
+  },
+  {
+    "id": "QA060",
+    "category": "软件工程",
+    "question": "设计模式是什么？",
+    "standard_answer": "设计模式是针对常见设计问题的可复用解决方案。",
+    "reference_evidence": "设计模式总结了软件设计中的典型问题、适用场景和解决结构，帮助提高设计复用性。",
+    "tags": [
+      "软件工程",
+      "设计模式"
+    ]
+  },
+  {
+    "id": "QA061",
+    "category": "软件工程",
+    "question": "框架 Framework 与普通函数库相比有什么特点？",
+    "standard_answer": "框架通常规定应用的整体结构和控制流程。",
+    "reference_evidence": "函数库主要由开发者主动调用，而框架往往通过反转控制来调用开发者编写的扩展代码。",
+    "tags": [
+      "软件工程",
+      "框架"
+    ]
+  },
+  {
+    "id": "QA062",
+    "category": "软件工程",
+    "question": "软件复用的目的是什么？",
+    "standard_answer": "软件复用的目的是通过重复利用已有成果提高开发效率和质量。",
+    "reference_evidence": "复用可以包括代码、组件、设计、架构、测试用例和文档的复用。",
+    "tags": [
+      "软件工程",
+      "复用"
+    ]
+  },
+  {
+    "id": "QA063",
+    "category": "软件工程",
+    "question": "软件产品线是什么？",
+    "standard_answer": "软件产品线是一组共享核心资产并面向相近市场的软件产品集合。",
+    "reference_evidence": "软件产品线通过公共架构和可变性管理，支持快速开发一系列相关产品。",
+    "tags": [
+      "软件工程",
+      "产品线"
+    ]
+  },
+  {
+    "id": "QA064",
+    "category": "软件工程",
+    "question": "验证 Verification 和确认 Validation 的区别是什么？",
+    "standard_answer": "验证关注是否正确构建产品，确认关注是否构建了正确的产品。",
+    "reference_evidence": "Verification 检查软件是否符合规格说明，Validation 检查软件是否满足用户真实需求。",
+    "tags": [
+      "软件工程",
+      "V&V"
+    ]
+  },
+  {
+    "id": "QA065",
+    "category": "软件工程",
+    "question": "单元测试主要测试什么？",
+    "standard_answer": "单元测试主要测试程序中的最小可测试单元。",
+    "reference_evidence": "单元测试通常针对函数、类或模块进行，目的是尽早发现局部逻辑错误。",
+    "tags": [
+      "软件工程",
+      "测试"
+    ]
+  },
+  {
+    "id": "QA066",
+    "category": "软件工程",
+    "question": "集成测试主要关注什么？",
+    "standard_answer": "集成测试主要关注多个模块组合后的接口和交互是否正确。",
+    "reference_evidence": "当单个模块通过测试后，需要检查模块之间的数据传递、调用关系和协作行为。",
+    "tags": [
+      "软件工程",
+      "测试"
+    ]
+  },
+  {
+    "id": "QA067",
+    "category": "软件工程",
+    "question": "黑盒测试依据什么设计测试用例？",
+    "standard_answer": "黑盒测试依据需求规格和输入输出关系设计测试用例。",
+    "reference_evidence": "黑盒测试不关注程序内部结构，而关注给定输入时系统输出是否符合预期。",
+    "tags": [
+      "软件工程",
+      "测试"
+    ]
+  },
+  {
+    "id": "QA068",
+    "category": "软件工程",
+    "question": "白盒测试依据什么设计测试用例？",
+    "standard_answer": "白盒测试依据程序内部结构和逻辑路径设计测试用例。",
+    "reference_evidence": "白盒测试会考虑语句覆盖、分支覆盖、路径覆盖等代码内部信息。",
+    "tags": [
+      "软件工程",
+      "测试"
+    ]
+  },
+  {
+    "id": "QA069",
+    "category": "软件工程",
+    "question": "回归测试的目的是什么？",
+    "standard_answer": "回归测试用于检查修改后是否破坏了原有功能。",
+    "reference_evidence": "软件修复缺陷或增加功能后，需要重新运行相关测试，确认已有行为没有意外退化。",
+    "tags": [
+      "软件工程",
+      "测试"
+    ]
+  },
+  {
+    "id": "QA070",
+    "category": "软件工程",
+    "question": "调试 Debugging 和测试 Testing 的区别是什么？",
+    "standard_answer": "测试用于发现缺陷，调试用于定位并修复缺陷原因。",
+    "reference_evidence": "Testing 关注是否存在错误，Debugging 关注错误为什么发生以及如何修改代码消除错误。",
+    "tags": [
+      "软件工程",
+      "调试"
+    ]
+  },
+  {
+    "id": "QA071",
+    "category": "软件工程",
+    "question": "遗留系统 Legacy system 是什么？",
+    "standard_answer": "遗留系统是仍在使用但采用旧技术或旧架构的软件系统。",
+    "reference_evidence": "遗留系统通常承载重要业务，但可能存在维护困难、文档不足和技术过时等问题。",
+    "tags": [
+      "软件工程",
+      "遗留系统"
+    ]
+  },
+  {
+    "id": "QA072",
+    "category": "软件工程",
+    "question": "Brownfield Systems 指什么？",
+    "standard_answer": "Brownfield Systems 指在已有系统基础上改造或扩展的软件系统。",
+    "reference_evidence": "棕地开发不是从零开始，而是在现有代码、数据、接口和业务约束上继续建设。",
+    "tags": [
+      "软件工程",
+      "遗留系统"
+    ]
+  },
+  {
+    "id": "QA073",
+    "category": "软件工程",
+    "question": "社会技术系统 Sociotechnical systems 强调什么？",
+    "standard_answer": "社会技术系统强调软件系统与人、组织流程和社会环境共同作用。",
+    "reference_evidence": "软件不只是技术产品，还会受到组织结构、工作制度、用户习惯和社会规则影响。",
+    "tags": [
+      "软件工程",
+      "系统观"
+    ]
+  },
+  {
+    "id": "QA074",
+    "category": "软件工程",
+    "question": "民族志 Ethnography 在软件工程中有什么作用？",
+    "standard_answer": "民族志通过观察用户真实工作环境来发现隐性需求。",
+    "reference_evidence": "需求工程中使用民族志方法，可以了解用户实际工作流程、协作方式和未明确表达的需求。",
+    "tags": [
+      "软件工程",
+      "需求"
+    ]
+  },
+  {
+    "id": "QA075",
+    "category": "软件工程",
+    "question": "配置管理的主要目的是什么？",
+    "standard_answer": "配置管理用于控制软件版本、变更和发布的一致性。",
+    "reference_evidence": "软件配置管理跟踪代码、文档、依赖和构建结果，避免版本混乱并支持可追溯变更。",
+    "tags": [
+      "软件工程",
+      "配置管理"
+    ]
+  },
+  {
+    "id": "QA076",
+    "category": "数据库系统",
+    "question": "数据库管理系统 DBMS 的作用是什么？",
+    "standard_answer": "DBMS 用于组织、存储、管理和查询数据库中的数据。",
+    "reference_evidence": "数据库管理系统提供数据定义、数据操纵、事务管理、安全控制和恢复等功能。",
+    "tags": [
+      "数据库",
+      "概念"
+    ]
+  },
+  {
+    "id": "QA077",
+    "category": "数据库系统",
+    "question": "关系模型中的关系可以通俗理解为什么？",
+    "standard_answer": "关系可以通俗理解为一张二维表。",
+    "reference_evidence": "关系模型用关系表示数据，一个关系由行和列组成，行对应元组，列对应属性。",
+    "tags": [
+      "数据库",
+      "关系模型"
+    ]
+  },
+  {
+    "id": "QA078",
+    "category": "数据库系统",
+    "question": "关系模型中的元组对应表中的什么？",
+    "standard_answer": "元组对应表中的一行记录。",
+    "reference_evidence": "在关系数据库中，表的一行表示一个元组，描述一个实体或一次事实记录。",
+    "tags": [
+      "数据库",
+      "关系模型"
+    ]
+  },
+  {
+    "id": "QA079",
+    "category": "数据库系统",
+    "question": "关系模型中的属性对应表中的什么？",
+    "standard_answer": "属性对应表中的一列。",
+    "reference_evidence": "属性描述关系中的某个数据项，如学生表中的学号、姓名、专业等列。",
+    "tags": [
+      "数据库",
+      "关系模型"
+    ]
+  },
+  {
+    "id": "QA080",
+    "category": "数据库系统",
+    "question": "主键的作用是什么？",
+    "standard_answer": "主键用于唯一标识关系中的每一个元组。",
+    "reference_evidence": "主键值不能重复，也不能为空，它保证表中每一行可以被唯一识别。",
+    "tags": [
+      "数据库",
+      "键"
+    ]
+  },
+  {
+    "id": "QA081",
+    "category": "数据库系统",
+    "question": "外键的作用是什么？",
+    "standard_answer": "外键用于表示两个关系之间的引用关系。",
+    "reference_evidence": "外键通常引用另一个表的主键，用于维护表与表之间的数据一致性。",
+    "tags": [
+      "数据库",
+      "键"
+    ]
+  },
+  {
+    "id": "QA082",
+    "category": "数据库系统",
+    "question": "候选码是什么？",
+    "standard_answer": "候选码是能够唯一标识元组且不含多余属性的属性集。",
+    "reference_evidence": "如果一个属性集能唯一确定关系中的每个元组，并且去掉任一属性后不再具有唯一性，则它是候选码。",
+    "tags": [
+      "数据库",
+      "键"
+    ]
+  },
+  {
+    "id": "QA083",
+    "category": "数据库系统",
+    "question": "实体完整性规则要求主键满足什么条件？",
+    "standard_answer": "实体完整性要求主键不能为空。",
+    "reference_evidence": "关系模型中，主键用于唯一标识实体，如果主键为空，就无法可靠地区分实体。",
+    "tags": [
+      "数据库",
+      "完整性"
+    ]
+  },
+  {
+    "id": "QA084",
+    "category": "数据库系统",
+    "question": "参照完整性主要约束什么？",
+    "standard_answer": "参照完整性约束外键必须引用已存在的主键值或取空值。",
+    "reference_evidence": "外键值不能随意指向不存在的记录，否则会破坏关系之间的一致性。",
+    "tags": [
+      "数据库",
+      "完整性"
+    ]
+  },
+  {
+    "id": "QA085",
+    "category": "数据库系统",
+    "question": "SQL 中 SELECT-FROM-WHERE 的基本作用是什么？",
+    "standard_answer": "SELECT 指定查询列，FROM 指定数据表，WHERE 指定筛选条件。",
+    "reference_evidence": "SQL 查询通常通过 SELECT 选择输出字段，通过 FROM 指明来源关系，通过 WHERE 过滤满足条件的行。",
+    "tags": [
+      "数据库",
+      "SQL"
+    ]
+  },
+  {
+    "id": "QA086",
+    "category": "数据库系统",
+    "question": "GROUP BY 的作用是什么？",
+    "standard_answer": "GROUP BY 用于按指定列对查询结果分组。",
+    "reference_evidence": "分组后可以对每组分别使用 COUNT、SUM、AVG、MAX、MIN 等聚合函数。",
+    "tags": [
+      "数据库",
+      "SQL"
+    ]
+  },
+  {
+    "id": "QA087",
+    "category": "数据库系统",
+    "question": "HAVING 和 WHERE 的主要区别是什么？",
+    "standard_answer": "WHERE 过滤分组前的行，HAVING 过滤分组后的组。",
+    "reference_evidence": "WHERE 作用于原始记录，HAVING 通常与 GROUP BY 配合，用于筛选聚合后的分组结果。",
+    "tags": [
+      "数据库",
+      "SQL"
+    ]
+  },
+  {
+    "id": "QA088",
+    "category": "数据库系统",
+    "question": "ORDER BY 的作用是什么？",
+    "standard_answer": "ORDER BY 用于对查询结果排序。",
+    "reference_evidence": "ORDER BY 可以按一列或多列进行升序或降序排列，默认通常为升序。",
+    "tags": [
+      "数据库",
+      "SQL"
+    ]
+  },
+  {
+    "id": "QA089",
+    "category": "数据库系统",
+    "question": "内连接 Inner Join 返回什么结果？",
+    "standard_answer": "内连接返回两个表中满足连接条件的匹配记录。",
+    "reference_evidence": "如果某行在另一张表中没有满足连接条件的记录，该行不会出现在内连接结果中。",
+    "tags": [
+      "数据库",
+      "连接"
+    ]
+  },
+  {
+    "id": "QA090",
+    "category": "数据库系统",
+    "question": "外连接 Outer Join 与内连接相比有什么特点？",
+    "standard_answer": "外连接会保留某一侧或两侧没有匹配的记录。",
+    "reference_evidence": "左外连接保留左表全部记录，右外连接保留右表全部记录，全外连接保留两侧全部记录。",
+    "tags": [
+      "数据库",
+      "连接"
+    ]
+  },
+  {
+    "id": "QA091",
+    "category": "数据库系统",
+    "question": "关系代数中的选择运算 σ 作用是什么？",
+    "standard_answer": "选择运算用于从关系中筛选满足条件的元组。",
+    "reference_evidence": "σ 条件写在关系上方或旁边，表示按条件选出表中的行。",
+    "tags": [
+      "数据库",
+      "关系代数"
+    ]
+  },
+  {
+    "id": "QA092",
+    "category": "数据库系统",
+    "question": "关系代数中的投影运算 π 作用是什么？",
+    "standard_answer": "投影运算用于从关系中选择指定属性列。",
+    "reference_evidence": "π 后面写属性列表，表示只保留这些列，并在关系代数中去除重复元组。",
+    "tags": [
+      "数据库",
+      "关系代数"
+    ]
+  },
+  {
+    "id": "QA093",
+    "category": "数据库系统",
+    "question": "数据库视图 View 是什么？",
+    "standard_answer": "视图是基于查询结果定义的虚表。",
+    "reference_evidence": "视图本身通常不直接保存完整数据，而是保存查询定义，用户可以像访问表一样访问视图。",
+    "tags": [
+      "数据库",
+      "视图"
+    ]
+  },
+  {
+    "id": "QA094",
+    "category": "数据库系统",
+    "question": "第一范式 1NF 的基本要求是什么？",
+    "standard_answer": "第一范式要求属性值具有原子性。",
+    "reference_evidence": "1NF 要求关系中的每个属性值不可再分，不能在一个字段中存放重复组或列表。",
+    "tags": [
+      "数据库",
+      "范式"
+    ]
+  },
+  {
+    "id": "QA095",
+    "category": "数据库系统",
+    "question": "第二范式 2NF 主要消除什么问题？",
+    "standard_answer": "第二范式主要消除非主属性对候选码的部分函数依赖。",
+    "reference_evidence": "在满足 1NF 的基础上，如果非主属性只依赖复合候选码的一部分，就违反 2NF。",
+    "tags": [
+      "数据库",
+      "范式"
+    ]
+  },
+  {
+    "id": "QA096",
+    "category": "数据库系统",
+    "question": "第三范式 3NF 主要消除什么问题？",
+    "standard_answer": "第三范式主要消除非主属性对候选码的传递函数依赖。",
+    "reference_evidence": "在满足 2NF 的基础上，若非主属性依赖另一个非主属性，再间接依赖候选码，就可能违反 3NF。",
+    "tags": [
+      "数据库",
+      "范式"
+    ]
+  },
+  {
+    "id": "QA097",
+    "category": "数据库系统",
+    "question": "BCNF 对函数依赖有什么要求？",
+    "standard_answer": "BCNF 要求每个非平凡函数依赖的决定因素都必须是超码。",
+    "reference_evidence": "若关系中存在 X→Y 且 X 不是超码，则该关系不满足 BCNF。",
+    "tags": [
+      "数据库",
+      "范式"
+    ]
+  },
+  {
+    "id": "QA098",
+    "category": "数据库系统",
+    "question": "事务的 ACID 特性包括哪些？",
+    "standard_answer": "ACID 包括原子性、一致性、隔离性和持久性。",
+    "reference_evidence": "事务处理要求一组数据库操作要么全部成功要么全部失败，并保持数据一致、并发隔离和结果持久保存。",
+    "tags": [
+      "数据库",
+      "事务"
+    ]
+  },
+  {
+    "id": "QA099",
+    "category": "数据库系统",
+    "question": "并发控制中的可串行化是什么意思？",
+    "standard_answer": "可串行化表示并发执行结果等价于某个串行执行结果。",
+    "reference_evidence": "如果多个事务交错执行后产生的数据库状态与某种顺序逐个执行事务相同，则该调度是可串行化的。",
+    "tags": [
+      "数据库",
+      "并发控制"
+    ]
+  },
+  {
+    "id": "QA100",
+    "category": "数据库系统",
+    "question": "数据库日志在恢复中的作用是什么？",
+    "standard_answer": "日志用于记录事务操作，支持故障后的撤销和重做。",
+    "reference_evidence": "数据库系统通过日志保存更新前后信息，发生故障后可以利用日志恢复到一致状态。",
+    "tags": [
+      "数据库",
+      "恢复"
+    ]
+  }
+]
