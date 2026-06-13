@@ -8,5 +8,4 @@ __pycache__/
 *.sqlite3
 chroma_db/
 notebooks/chroma_db/
-results/
 .ipynb_checkpoints/

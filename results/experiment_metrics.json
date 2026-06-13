@@ -1,0 +1,42 @@
+[
+  {
+    "method":"Base_LLM",
+    "method_cn":"基础大模型",
+    "total_samples":100,
+    "correct_count":2,
+    "hallucination_count":98,
+    "accuracy":0.02,
+    "hallucination_rate":0.98,
+    "avg_latency":4.2964
+  },
+  {
+    "method":"RAG",
+    "method_cn":"RAG 基线",
+    "total_samples":100,
+    "correct_count":1,
+    "hallucination_count":99,
+    "accuracy":0.01,
+    "hallucination_rate":0.99,
+    "avg_latency":4.0764
+  },
+  {
+    "method":"RAG_Verify",
+    "method_cn":"RAG + 验证熔断",
+    "total_samples":100,
+    "correct_count":1,
+    "hallucination_count":99,
+    "accuracy":0.01,
+    "hallucination_rate":0.99,
+    "avg_latency":4.9983
+  },
+  {
+    "method":"RAG_CoVe",
+    "method_cn":"RAG + CoVe 自检",
+    "total_samples":100,
+    "correct_count":0,
+    "hallucination_count":100,
+    "accuracy":0.0,
+    "hallucination_rate":1.0,
+    "avg_latency":10.201
+  }
+]
